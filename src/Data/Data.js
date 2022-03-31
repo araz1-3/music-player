@@ -88,7 +88,7 @@ const MusicData =()=>{
             name:"Forever",
             cover:"https://i.scdn.co/image/ab67616d0000b27301c5903bc48619956a51e66e",
             artist:"illiterate",
-            audio:"https://mp3.chillhop.com/serve.php/?mp3=30103",
+            audio:"https://mp3.chillhop.com/serve.php/?mp3=30087",
             color:["#26283D","#7D92A5"],
             id:uuidv4() ,
             active:false
