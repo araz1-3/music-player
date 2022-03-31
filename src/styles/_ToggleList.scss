@@ -1,0 +1,46 @@
+nav{
+  min-height: 10vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  button{
+    background-color: transparent;
+    border: 2px solid rgb(65,65,65);
+    cursor: pointer;
+    padding: 0.5rem;
+    transition: all 0.3s ease;
+    &:hover{
+      background-color: rgb(65,65,65);
+      color: #fff;
+      border: 2px solid rgb(155,153,153);
+    }
+  }
+}
+#toggleButton{
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+  margin-right:5px ;
+}
+#app-title{
+  color: red;
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 768px){
+  nav{
+    button{
+      z-index: 10;
+      position: fixed;
+      top:0.6vh;
+      right: 5vw;
+    }
+  }
+  #app-title{
+    z-index: 10;
+    position: fixed;
+    top:0.6vh;
+    left: 5vw;
+  }
+}
