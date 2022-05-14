@@ -89,3 +89,8 @@
     transform: translateX(-100vw);
   }
 }
+@media screen and (max-width: 400px){
+  .song-list h2{
+    visibility:hidden ;
+  }
+}
